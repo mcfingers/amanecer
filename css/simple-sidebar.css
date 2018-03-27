@@ -1,0 +1,456 @@
+
+body {
+  overflow-x: hidden;
+    font-family: 'robotoregular';
+}
+
+h1,h2,h3,h4,h5,h6 {
+      font-family: 'chunkfiveroman';
+}
+
+.container-home > .row {
+  padding-top: 5px;
+}
+
+.container-home > .row > .col-lg-12 {
+  padding-right: 0;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+#sidebar-wrapper {
+  z-index: 0;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #efefef;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 50px 0 0 0;
+    box-shadow: -10px 0 30px 0px hsla(0,0%,0%,0.15);
+    z-index:10;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+   font-family: 'chunkfiveroman';
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1em;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 60px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 8px solid rgba(0,0,0,0.2);
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/*.sidebar-nav>.sidebar-brand {
+  height: 70px;
+  font-size: 18px;
+  line-height: 70px;
+}*/
+
+.sidebar-nav>.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+.sidebar-nav .sidebar-brand {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo-navbar {
+  vertical-align: middle;
+  margin: 20px;
+}
+
+#menu-toggle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.navbar-toggler {
+  padding: 0.15rem 0.35rem;
+  font-size: 0.8rem;
+
+}
+
+.lnk1 {
+  background-color: #FFF051;
+}
+
+.lnk1 img {
+    -webkit-filter: grayscale(100%) brightness(500%) brightness(50%);
+  filter: grayscale(100%) brightness(500%) brightness(50%);
+}
+.sidebar-nav li.lnk1 a {
+  color:#444;
+}
+
+.lnk2 {
+  background-color: #007F3D;
+  display: block;
+  height: 60px;
+}
+
+.lnk2 img {
+  vertical-align: middle;
+}
+
+.lnk3 {
+  background-color: #004C8F;
+}
+
+.lnk4 {
+  background-color: #E30062;
+}
+
+.lnk5 {
+  background-color: #FF6F30;
+}
+
+.bg-light {background: none !important;}
+
+.tit-container {
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  vertical-align: middle;
+}
+
+#tit-container-ptoventa {
+  background-color: #007F3D;  
+}
+
+#tit-container-productos {
+  background-color: #FFF051;
+}
+
+#tit-container-ofertas {
+  background-color: #004C8F;
+}
+
+#tit-container-recetas {
+  background-color: #E30062;
+}
+
+#tit-container-consultas {
+  background-color: #FF6F30;
+}
+
+.tit-icon {
+  display: inline-block;
+  background: rgba(0,0,0,0.2);
+  height: 70px;
+  vertical-align: middle;
+  margin-left: 20px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  position: relative;
+}
+
+#tit-icon-ptoventa:after {
+  content: "";
+  position: absolute;
+  height:70px;
+  width: 70px;
+  background: url(../img/icon-pto-venta.svg) center center;
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+#tit-icon-productos:after {
+  content: "";
+  position: absolute;
+  height:70px;
+  width: 70px;
+  background: url(../img/icon-productos.svg) center center;
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+#tit-icon-ofertas:after {
+  content: "";
+  position: absolute;
+  height:70px;
+  width: 70px;
+  background: url(../img/icon-ofertas.svg) center center;
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+#tit-icon-recetas:after {
+  content: "";
+  position: absolute;
+  height:70px;
+  width: 70px;
+  background: url(../img/icon-recetas.svg) center center;
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+#tit-icon-consultas:after {
+  content: "";
+  position: absolute;
+  height:70px;
+  width: 70px;
+  background: url(../img/icon-consultas.svg) center center;
+  -webkit-background-size: 70%;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+.tit {
+  font-family: 'chunkfiveroman';
+  color: #ffffff;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#tit-productos {
+  color: #444;
+}
+
+.logo-home {
+  margin-top: 8px;
+}
+
+/*Animaciones Home*/
+#tit-container-ptoventa{
+  -webkit-animation-delay:0.3s;
+   -moz-animation-delay:0.3s;
+    -ms-animation-delay:0.3s;
+     -o-animation-delay:0.3s;
+        animation-delay:0.3s;
+      }
+
+#tit-container-ofertas{
+  -webkit-animation-delay:0.6s;
+   -moz-animation-delay:0.6s;
+    -ms-animation-delay:0.6s;
+     -o-animation-delay:0.6s;
+        animation-delay:0.6s;
+      }
+
+#tit-container-recetas{
+  -webkit-animation-delay:0.9s;
+   -moz-animation-delay:0.9s;
+    -ms-animation-delay:0.9s;
+     -o-animation-delay:0.9s;
+        animation-delay:0.9s;
+      }
+
+#tit-container-consultas{
+  -webkit-animation-delay:1.2s;
+   -moz-animation-delay:1.2s;
+    -ms-animation-delay:1.2s;
+     -o-animation-delay:1.2s;
+        animation-delay:1.2s;
+      }
+
+#imagen-prod {
+  width: 
+}
+
+
+/*PRODUCTOS*/
+#prod-container {
+  margin-top: 30px;
+}
+
+.prod-info-container {
+  padding-left: 20px;
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+
+.prod-info-container h5, .prod-info-container p {
+  margin-bottom: 0;
+}
+
+#prod-img-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.separador {
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 10px;
+}
+
+
+/* OFERTAS */
+.container-ofertas {
+  margin-top: 20px;
+}
+
+/*TABLAS MODALES*/
+.modal {
+  z-index: 9999;
+}
+
+.img-prod-tabla {
+  max-width: 65px;
+  /*margin-right: 20px;*/
+}
+
+/*.modal-title {
+  line-height: 65px;
+  vertical-align: middle;
+}*/
+
+.modal-body > .table {
+  font-size: .8rem;
+  line-height: .8rem;
+}
+
+/*LOADER*/
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 1.5s linear infinite;
+  -moz-animation: rotating 1.5s linear infinite;
+  -ms-animation: rotating 1.5s linear infinite;
+  -o-animation: rotating 1.5s linear infinite;
+  animation: rotating 1.5s linear infinite;
+}
+
+.loader {
+  display: none;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+}
+@media(min-width:768px) {
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 250px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  #page-content-wrapper {
+    padding: 70px 15px;
+    position: relative;
+  }
+
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+
+}
