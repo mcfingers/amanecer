@@ -1,0 +1,268 @@
+{
+   "items":[
+      {
+"nombre":"Leche entera en polvo",
+"pack":"Caja",
+"peso":"800grs",
+"descripcion":"Rinde 6,4 lts",
+"imagen":"leche-polvo-entera.png",
+"precio":"$114,40",
+"tabla_nutri":[
+ {
+   "Elemento": "Valor Energético",
+   "Cantx100ml": "58 kcal/ 242 kJ",
+   "Cantxporcion": "116 kal / 484 kJ",
+   "VD": "6"
+ },
+ {
+   "Elemento": "Carbohidratos",
+   "Cantx100ml": "4,5g",
+   "Cantxporcion": "9,0g",
+   "VD": "3"
+ },
+ {
+   "Elemento": "Proteínas",
+   "Cantx100ml": "3,2g",
+   "Cantxporcion": "6,4g",
+   "VD": "9"
+ },
+ {
+   "Elemento": "Grasas totales",
+   "Cantx100ml": "3g",
+   "Cantxporcion": "6g",
+   "VD": "11"
+ },
+ {
+   "Elemento": "Grasas saturadas",
+   "Cantx100ml": "1,8g",
+   "Cantxporcion": "3,5g",
+   "VD": "16"
+ },
+ {
+   "Elemento": "Grasas trans",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Fibra alimentaria",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Sodio",
+   "Cantx100ml": "43mg",
+   "Cantxporcion": "86mg",
+   "VD": "4"
+ },
+ {
+   "Elemento": "Calcio",
+   "Cantx100ml": "120mg",
+   "Cantxporcion": "240mg",
+   "VD": "24"
+ },
+ {
+   "Elemento": "Vitamina A",
+   "Cantx100ml": "64&micro;g",
+   "Cantxporcion": "128&micro;g",
+   "VD": "21"
+ },
+ {
+   "Elemento": "Vitamina B9",
+   "Cantx100ml": "18&micro;g",
+   "Cantxporcion": "36&micro;g",
+   "VD": "15"
+ },
+ {
+   "Elemento": "Vitamina C",
+   "Cantx100ml": "7mg",
+   "Cantxporcion": "14mg",
+   "VD": "31"
+ },
+ {
+   "Elemento": "Vitamina D",
+   "Cantx100ml": "1,0&micro;g",
+   "Cantxporcion": "2,0&micro;g",
+   "VD": "40"
+ }
+]
+},
+{
+"nombre":"Leche descremada en polvo",
+"pack":"Caja",
+"peso":"800grs",
+"descripcion":"Rinde 8 lts",
+"imagen":"leche-polvo-descremada.png",
+"precio":"$114,40",
+"tabla_nutri":[
+ {
+   "Elemento": "Valor Energético",
+   "Cantx100ml": "58 kcal/ 242 kJ",
+   "Cantxporcion": "116 kal / 484 kJ",
+   "VD": "6"
+ },
+ {
+   "Elemento": "Carbohidratos",
+   "Cantx100ml": "6g",
+   "Cantxporcion": "11g",
+   "VD": "10"
+ },
+ {
+   "Elemento": "Proteínas",
+   "Cantx100ml": "1,2g",
+   "Cantxporcion": "4,4g",
+   "VD": "9"
+ },
+ {
+   "Elemento": "Grasas totales",
+   "Cantx100ml": "12g",
+   "Cantxporcion": "3g",
+   "VD": "25"
+ },
+ {
+   "Elemento": "Grasas saturadas",
+   "Cantx100ml": "1,8g",
+   "Cantxporcion": "3g",
+   "VD": "9"
+ },
+ {
+   "Elemento": "Grasas trans",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Fibra alimentaria",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Sodio",
+   "Cantx100ml": "29mg",
+   "Cantxporcion": "101mg",
+   "VD": "8"
+ },
+ {
+   "Elemento": "Calcio",
+   "Cantx100ml": "94mg",
+   "Cantxporcion": "218mg",
+   "VD": "22"
+ },
+ {
+   "Elemento": "Vitamina A",
+   "Cantx100ml": "64&micro;g",
+   "Cantxporcion": "128&micro;g",
+   "VD": "21"
+ },
+ {
+   "Elemento": "Vitamina B9",
+   "Cantx100ml": "18&micro;g",
+   "Cantxporcion": "36&micro;g",
+   "VD": "15"
+ },
+ {
+   "Elemento": "Vitamina C",
+   "Cantx100ml": "10mg",
+   "Cantxporcion": "5mg",
+   "VD": "7"
+ },
+ {
+   "Elemento": "Vitamina D",
+   "Cantx100ml": "1,0&micro;g",
+   "Cantxporcion": "2,0&micro;g",
+   "VD": "80"
+ }
+]
+},
+{
+"nombre":"Caramelos Bandolero",
+"pack":"Bolsa",
+"peso":"800grs",
+"descripcion":"",
+"imagen":"caramelos-bandolero.png",
+"precio":"$80,76",
+"tabla_nutri":[
+ {
+   "Elemento": "Valor Energético",
+   "Cantx100ml": "58 kcal/ 242 kJ",
+   "Cantxporcion": "116 kal / 484 kJ",
+   "VD": "6"
+ },
+ {
+   "Elemento": "Carbohidratos",
+   "Cantx100ml": "6g",
+   "Cantxporcion": "11g",
+   "VD": "10"
+ },
+ {
+   "Elemento": "Proteínas",
+   "Cantx100ml": "1,2g",
+   "Cantxporcion": "4,4g",
+   "VD": "9"
+ },
+ {
+   "Elemento": "Grasas totales",
+   "Cantx100ml": "12g",
+   "Cantxporcion": "3g",
+   "VD": "25"
+ },
+ {
+   "Elemento": "Grasas saturadas",
+   "Cantx100ml": "1,8g",
+   "Cantxporcion": "3g",
+   "VD": "9"
+ },
+ {
+   "Elemento": "Grasas trans",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Fibra alimentaria",
+   "Cantx100ml": "0,0g",
+   "Cantxporcion": "0,0g",
+   "VD": "0"
+ },
+ {
+   "Elemento": "Sodio",
+   "Cantx100ml": "29mg",
+   "Cantxporcion": "101mg",
+   "VD": "8"
+ },
+ {
+   "Elemento": "Calcio",
+   "Cantx100ml": "94mg",
+   "Cantxporcion": "218mg",
+   "VD": "22"
+ },
+ {
+   "Elemento": "Vitamina A",
+   "Cantx100ml": "64&micro;g",
+   "Cantxporcion": "128&micro;g",
+   "VD": "21"
+ },
+ {
+   "Elemento": "Vitamina B9",
+   "Cantx100ml": "18&micro;g",
+   "Cantxporcion": "36&micro;g",
+   "VD": "15"
+ },
+ {
+   "Elemento": "Vitamina C",
+   "Cantx100ml": "10mg",
+   "Cantxporcion": "5mg",
+   "VD": "7"
+ },
+ {
+   "Elemento": "Vitamina D",
+   "Cantx100ml": "1,0&micro;g",
+   "Cantxporcion": "2,0&micro;g",
+   "VD": "80"
+ }
+]
+}
+   ]
+}
